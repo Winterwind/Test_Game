@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/CSC329_Test_Game/[Ll]ibrary/
-/CSC329_Test_Game/[Tt]emp/
-/CSC329_Test_Game/[Oo]bj/
-/CSC329_Test_Game/[Bb]uild/
-/CSC329_Test_Game/[Bb]uilds/
-/CSC329_Test_Game/[Ll]ogs/
-/CSC329_Test_Game/[Uu]ser[Ss]ettings/
+/src/[Ll]ibrary/
+/src/[Tt]emp/
+/src/[Oo]bj/
+/src/[Bb]uild/
+/src/[Bb]uilds/
+/src/[Ll]ogs/
+/src/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Other
+.DS_Store
+*/DS_Store
